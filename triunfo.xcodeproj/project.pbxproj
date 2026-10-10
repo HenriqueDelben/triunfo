@@ -6,15 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F60003A1B2C3D4 /* Mockable in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60004A1B2C3D4 /* Mockable */; };
+		C3C7E0AC305D7C710054758C /* Mockable in Frameworks */ = {isa = PBXBuildFile; productRef = C3C7E0AD305D7C710054758C /* Mockable */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		C3CAD39730517DA50068A812 /* PBXContainerItemProxy */ = {
+		C37EFD89305D759E0095A8A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3CAD38130517DA30068A812 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C3CAD38830517DA30068A812;
 			remoteInfo = triunfo;
 		};
-		C3CAD3A130517DA60068A812 /* PBXContainerItemProxy */ = {
+		C37EFDE6305D7BBB0095A8A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3CAD38130517DA30068A812 /* Project object */;
 			proxyType = 1;
@@ -24,48 +29,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C37EFD83305D759E0095A8A7 /* triunfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triunfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37EFDE2305D7BBB0095A8A7 /* triunfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triunfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CAD38930517DA30068A812 /* triunfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triunfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3CAD39630517DA50068A812 /* triunfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triunfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3CAD3A030517DA60068A812 /* triunfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triunfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3CAD3BA3051EE6F0068A812 /* Exceptions for "triunfo" folder in "triunfo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3CAD38830517DA30068A812 /* triunfo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C3CAD38B30517DA30068A812 /* triunfo */ = {
+		C37EFD84305D759E0095A8A7 /* triunfoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = triunfo;
+			path = triunfoUITests;
 			sourceTree = "<group>";
 		};
-		C3CAD39930517DA50068A812 /* triunfoTests */ = {
+		C37EFDE3305D7BBB0095A8A7 /* triunfoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = triunfoTests;
 			sourceTree = "<group>";
 		};
-		C3CAD3A330517DA60068A812 /* triunfoUITests */ = {
+		C3CAD38B30517DA30068A812 /* triunfo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = triunfoUITests;
+			exceptions = (
+				C3CAD3BA3051EE6F0068A812 /* Exceptions for "triunfo" folder in "triunfo" target */,
+			);
+			path = triunfo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C37EFD80305D759E0095A8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37EFDDF305D7BBB0095A8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C7E0AC305D7C710054758C /* Mockable in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3CAD38630517DA30068A812 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39330517DA50068A812 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39D30517DA60068A812 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A1B2C3D4E5F60003A1B2C3D4 /* Mockable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				C3CAD38B30517DA30068A812 /* triunfo */,
-				C3CAD39930517DA50068A812 /* triunfoTests */,
-				C3CAD3A330517DA60068A812 /* triunfoUITests */,
+				C37EFD84305D759E0095A8A7 /* triunfoUITests */,
+				C37EFDE3305D7BBB0095A8A7 /* triunfoTests */,
 				C3CAD38A30517DA30068A812 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				C3CAD38930517DA30068A812 /* triunfo.app */,
-				C3CAD39630517DA50068A812 /* triunfoTests.xctest */,
-				C3CAD3A030517DA60068A812 /* triunfoUITests.xctest */,
+				C37EFD83305D759E0095A8A7 /* triunfoUITests.xctest */,
+				C37EFDE2305D7BBB0095A8A7 /* triunfoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +115,54 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C37EFD82305D759E0095A8A7 /* triunfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37EFD8B305D759E0095A8A7 /* Build configuration list for PBXNativeTarget "triunfoUITests" */;
+			buildPhases = (
+				C37EFD7F305D759E0095A8A7 /* Sources */,
+				C37EFD80305D759E0095A8A7 /* Frameworks */,
+				C37EFD81305D759E0095A8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37EFD8A305D759E0095A8A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C37EFD84305D759E0095A8A7 /* triunfoUITests */,
+			);
+			name = triunfoUITests;
+			packageProductDependencies = (
+			);
+			productName = triunfoUITests;
+			productReference = C37EFD83305D759E0095A8A7 /* triunfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C37EFDE1305D7BBB0095A8A7 /* triunfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37EFDE8305D7BBB0095A8A7 /* Build configuration list for PBXNativeTarget "triunfoTests" */;
+			buildPhases = (
+				C37EFDDE305D7BBB0095A8A7 /* Sources */,
+				C37EFDDF305D7BBB0095A8A7 /* Frameworks */,
+				C37EFDE0305D7BBB0095A8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C7E0AB305D7C710054758C /* PBXTargetDependency */,
+				C37EFDE7305D7BBB0095A8A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C37EFDE3305D7BBB0095A8A7 /* triunfoTests */,
+			);
+			name = triunfoTests;
+			packageProductDependencies = (
+				C3C7E0AD305D7C710054758C /* Mockable */,
+			);
+			productName = triunfoTests;
+			productReference = C37EFDE2305D7BBB0095A8A7 /* triunfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C3CAD38830517DA30068A812 /* triunfo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CAD3AA30517DA60068A812 /* Build configuration list for PBXNativeTarget "triunfo" */;
@@ -112,56 +180,11 @@
 			);
 			name = triunfo;
 			packageProductDependencies = (
+				A1B2C3D4E5F60004A1B2C3D4 /* Mockable */,
 			);
 			productName = triunfo;
 			productReference = C3CAD38930517DA30068A812 /* triunfo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C3CAD39530517DA50068A812 /* triunfoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3CAD3AD30517DA60068A812 /* Build configuration list for PBXNativeTarget "triunfoTests" */;
-			buildPhases = (
-				C3CAD39230517DA50068A812 /* Sources */,
-				C3CAD39330517DA50068A812 /* Frameworks */,
-				C3CAD39430517DA50068A812 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3CAD39830517DA50068A812 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C3CAD39930517DA50068A812 /* triunfoTests */,
-			);
-			name = triunfoTests;
-			packageProductDependencies = (
-			);
-			productName = triunfoTests;
-			productReference = C3CAD39630517DA50068A812 /* triunfoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C3CAD39F30517DA60068A812 /* triunfoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3CAD3B030517DA60068A812 /* Build configuration list for PBXNativeTarget "triunfoUITests" */;
-			buildPhases = (
-				C3CAD39C30517DA60068A812 /* Sources */,
-				C3CAD39D30517DA60068A812 /* Frameworks */,
-				C3CAD39E30517DA60068A812 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3CAD3A230517DA60068A812 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C3CAD3A330517DA60068A812 /* triunfoUITests */,
-			);
-			name = triunfoUITests;
-			packageProductDependencies = (
-			);
-			productName = triunfoUITests;
-			productReference = C3CAD3A030517DA60068A812 /* triunfoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -173,16 +196,17 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					C37EFD82305D759E0095A8A7 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = C3CAD38830517DA30068A812;
+					};
+					C37EFDE1305D7BBB0095A8A7 = {
+						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
+						TestTargetID = C3CAD38830517DA30068A812;
+					};
 					C3CAD38830517DA30068A812 = {
 						CreatedOnToolsVersion = 26.3;
-					};
-					C3CAD39530517DA50068A812 = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = C3CAD38830517DA30068A812;
-					};
-					C3CAD39F30517DA60068A812 = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = C3CAD38830517DA30068A812;
 					};
 				};
 			};
@@ -195,34 +219,37 @@
 			);
 			mainGroup = C3CAD38030517DA30068A812;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C37EFD46305C365E0095A8A7 /* XCRemoteSwiftPackageReference "Mockable" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C3CAD38A30517DA30068A812 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C3CAD38830517DA30068A812 /* triunfo */,
-				C3CAD39530517DA50068A812 /* triunfoTests */,
-				C3CAD39F30517DA60068A812 /* triunfoUITests */,
+				C37EFD82305D759E0095A8A7 /* triunfoUITests */,
+				C37EFDE1305D7BBB0095A8A7 /* triunfoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C37EFD81305D759E0095A8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37EFDE0305D7BBB0095A8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3CAD38730517DA30068A812 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39430517DA50068A812 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39E30517DA60068A812 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +259,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C37EFD7F305D759E0095A8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37EFDDE305D7BBB0095A8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3CAD38530517DA30068A812 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39230517DA50068A812 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3CAD39C30517DA60068A812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,19 +283,129 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C3CAD39830517DA50068A812 /* PBXTargetDependency */ = {
+		C37EFD8A305D759E0095A8A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3CAD38830517DA30068A812 /* triunfo */;
-			targetProxy = C3CAD39730517DA50068A812 /* PBXContainerItemProxy */;
+			targetProxy = C37EFD89305D759E0095A8A7 /* PBXContainerItemProxy */;
 		};
-		C3CAD3A230517DA60068A812 /* PBXTargetDependency */ = {
+		C37EFDE7305D7BBB0095A8A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3CAD38830517DA30068A812 /* triunfo */;
-			targetProxy = C3CAD3A130517DA60068A812 /* PBXContainerItemProxy */;
+			targetProxy = C37EFDE6305D7BBB0095A8A7 /* PBXContainerItemProxy */;
+		};
+		C3C7E0AB305D7C710054758C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = C3C7E0AA305D7C710054758C /* Mockable */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		C37EFD8C305D759E0095A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.triunfo.triunfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = triunfo;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		C37EFD8D305D759E0095A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.triunfo.triunfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = triunfo;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		C37EFDE9305D7BBB0095A8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.triunfo.triunfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = MOCKING;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triunfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/triunfo";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		C37EFDEA305D7BBB0095A8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.triunfo.triunfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triunfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/triunfo";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
 		C3CAD3A830517DA60068A812 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,12 +525,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = triunfo/triunfo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = triunfo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Triunfo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,7 +546,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
@@ -414,13 +556,15 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MOCKING;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -430,12 +574,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = triunfo/triunfo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W5JV879B8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = triunfo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Triunfo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -446,7 +595,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
@@ -456,111 +605,14 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Release;
-		};
-		C3CAD3AE30517DA60068A812 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.triunfoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triunfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/triunfo";
-				XROS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Debug;
-		};
-		C3CAD3AF30517DA60068A812 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.triunfoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triunfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/triunfo";
-				XROS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Release;
-		};
-		C3CAD3B130517DA60068A812 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.triunfoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = triunfo;
-				XROS_DEPLOYMENT_TARGET = 26.2;
-			};
-			name = Debug;
-		};
-		C3CAD3B230517DA60068A812 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.triunfoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = triunfo;
+				TARGETED_DEVICE_FAMILY = 1;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -568,6 +620,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C37EFD8B305D759E0095A8A7 /* Build configuration list for PBXNativeTarget "triunfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37EFD8C305D759E0095A8A7 /* Debug */,
+				C37EFD8D305D759E0095A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37EFDE8305D7BBB0095A8A7 /* Build configuration list for PBXNativeTarget "triunfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37EFDE9305D7BBB0095A8A7 /* Debug */,
+				C37EFDEA305D7BBB0095A8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C3CAD38430517DA30068A812 /* Build configuration list for PBXProject "triunfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -586,25 +656,36 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3CAD3AD30517DA60068A812 /* Build configuration list for PBXNativeTarget "triunfoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3CAD3AE30517DA60068A812 /* Debug */,
-				C3CAD3AF30517DA60068A812 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3CAD3B030517DA60068A812 /* Build configuration list for PBXNativeTarget "triunfoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3CAD3B130517DA60068A812 /* Debug */,
-				C3CAD3B230517DA60068A812 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C37EFD46305C365E0095A8A7 /* XCRemoteSwiftPackageReference "Mockable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kolos65/Mockable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B2C3D4E5F60004A1B2C3D4 /* Mockable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37EFD46305C365E0095A8A7 /* XCRemoteSwiftPackageReference "Mockable" */;
+			productName = Mockable;
+		};
+		C3C7E0AA305D7C710054758C /* Mockable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37EFD46305C365E0095A8A7 /* XCRemoteSwiftPackageReference "Mockable" */;
+			productName = Mockable;
+		};
+		C3C7E0AD305D7C710054758C /* Mockable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C37EFD46305C365E0095A8A7 /* XCRemoteSwiftPackageReference "Mockable" */;
+			productName = Mockable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3CAD38130517DA30068A812 /* Project object */;
 }

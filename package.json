@@ -1,0 +1,12 @@
+{
+  "name": "triunfo",
+  "version": "1.0.0",
+  "description": "Triunfo iOS app",
+  "scripts": {
+    "test:no-build": "xcodebuild test-without-building -project triunfo.xcodeproj -scheme triunfo -destination 'platform=iOS Simulator,name=iPhone 17' -parallel-testing-enabled NO -only-testing:triunfoUITests/captureUseCase",
+    "test": "xcodebuild test -project triunfo.xcodeproj -scheme triunfo -destination 'platform=iOS Simulator,name=iPhone 17' -parallel-testing-enabled NO -only-testing:triunfoUITests/captureUseCase"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

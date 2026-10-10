@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "8C8B27B8-342D-43AC-AD88-99D1EC9DA148",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:triunfo.xcodeproj",
+      "identifier" : "C3CAD38830517DA30068A812",
+      "name" : "triunfo"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:triunfo.xcodeproj",
+        "identifier" : "C37EFDE1305D7BBB0095A8A7",
+        "name" : "triunfoTests"
+      }
+    },
+    {
+      "skippedTests" : [
+        "triunfoUITestsLaunchTests",
+        "triunfoUITestsLaunchTests\/testGivenAppHasStartedAndCaptureInputIsFocusedWhenUserEntersTextAndConfirmThenNoteIsCreated()",
+        "triunfoUITestsLaunchTests\/testLaunch()"
+      ],
+      "target" : {
+        "containerPath" : "container:triunfo.xcodeproj",
+        "identifier" : "C37EFD82305D759E0095A8A7",
+        "name" : "triunfoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
